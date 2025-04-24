@@ -116,6 +116,21 @@ Eigen::MatrixXd FollowerRobotNode::computeGoToFrameFromBaseLink(
     */
     Eigen::MatrixXd transform = Eigen::MatrixXd::Identity(4, 4);
 
+    double x = base_link_to_tag1.transform.translation.x;
+    double y = base_link_to_tag1.transform.translation.y;
+
+    double direction = std::atan2(y, x);
+
+    Eigen::AngleAxisd rotation(direction, Eigen::Vector3d::UnitZ());
+    transform.block<3, 3>(0,0) = rotation.toRotationMatrix();
+
+    double distance = std::sqrt(x *x + y * y);
+    double scale = 1.0 - (follow_distance_ / distance);
+
+    transform(0, 3) = x * scale;
+    transform(1, 3) = y * scale;
+    transform(2, 3) = 0.0;
+
     return transform;
 }
 
@@ -128,7 +143,13 @@ double FollowerRobotNode::computeDistanceBaseLinkTag1(
 
         Distance is just l2 norm or Euclidean distance. You've got this.
     */
-    double distance = 0.0;
+
+    double x = base_link_to_tag1.transform.translation.x;
+    double y = base_link_to_tag1.transform.translation.y;
+    double z = base_link_to_tag1.transform.translation.z;
+
+    double distance = std::sqrt(x * x + y * y + z * z);
+
     RCLCPP_INFO_STREAM(this->get_logger(),
         "distance:  " << distance << endl);
     return distance;  
@@ -192,8 +213,8 @@ bool FollowerRobotNode::theTagMoved(
 void FollowerRobotNode::computeAndAct() {
     try{
         //Look up the transform between map and base_link here
-        geometry_msgs::msg::TransformStamped map_to_base_link;
-        geometry_msgs::msg::TransformStamped base_link_to_tag1;
+        geometry_msgs::msg::TransformStamped map_to_base_link = tf_buffer_.lookupTransform("map", "base_link", tf2::TimePointZero);
+        geometry_msgs::msg::TransformStamped base_link_to_tag1 = tf_buffer_.lookupTransform("base_link", "tag1", tf2::TimePointZero);
         if(theTagMoved(map_to_base_link, base_link_to_tag1)) {
             RCLCPP_INFO_STREAM(this->get_logger(), "THE TAG MOVED" << endl);
             double distance = computeDistanceBaseLinkTag1(base_link_to_tag1);
@@ -207,7 +228,7 @@ void FollowerRobotNode::computeAndAct() {
                         the entire class, assuring that you always broadcast
                         the correct pose.
                 */
-                //m_map_to_go_to_ =
+                m_map_to_go_to_ = m_map_to_base_link * m_go_to;
         
                 move_to_target_.copyToGoalPoseAndSend(m_go_to);
             }
@@ -217,7 +238,10 @@ void FollowerRobotNode::computeAndAct() {
             Set tf1.header.stamp.
             Send using tf_broadcaster_.
         */
-        geometry_msgs::msg::TransformStamped tf1;
+        geometry_msgs::msg::TransformStamped tf1 = matrixToTransform(m_map_to_go_to_, "map", "go_to_frame");
+
+        tf1.header.stamp = this -> now();
+        tf_broadcaster_.sendTransform(tf1);
 
     } catch (const tf2::TransformException &ex) {
         RCLCPP_WARN(this->get_logger(), "Could not transform world -> example_frame: %s", ex.what());

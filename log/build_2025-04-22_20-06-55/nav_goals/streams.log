@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals -- -j12 -l12
+[0.050s] [ 50%] [32mBuilding CXX object CMakeFiles/send_goal.dir/src/send_goal.cpp.o[0m
+[3.764s] [100%] [32m[1mLinking CXX executable send_goal[0m
+[3.927s] [100%] Built target send_goal
+[3.938s] Invoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals -- -j12 -l12
+[3.955s] Invoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals
+[3.960s] -- Install configuration: ""
+[3.960s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/lib/nav_goals/send_goal
+[3.961s] -- Set runtime path of "/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/lib/nav_goals/send_goal" to ""
+[3.961s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/ament_index/resource_index/package_run_dependencies/nav_goals
+[3.961s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/ament_index/resource_index/parent_prefix_path/nav_goals
+[3.961s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/environment/ament_prefix_path.sh
+[3.961s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/environment/ament_prefix_path.dsv
+[3.961s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/environment/path.sh
+[3.961s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/environment/path.dsv
+[3.961s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/local_setup.bash
+[3.961s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/local_setup.sh
+[3.962s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/local_setup.zsh
+[3.962s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/local_setup.dsv
+[3.962s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.dsv
+[3.962s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/ament_index/resource_index/packages/nav_goals
+[3.962s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/cmake/nav_goalsConfig.cmake
+[3.962s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/cmake/nav_goalsConfig-version.cmake
+[3.962s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.xml
+[3.964s] Invoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals

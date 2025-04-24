@@ -1,0 +1,40 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/bwilab/bwi_ros2/serial/include/**",
+        "/home/bwilab/bwi_ros2/src/Azure_Kinect_ROS_Driver/include/**",
+        "/home/bwilab/bwi_ros2/src/apriltag_ros/apriltag_ros/include/**",
+        "/home/bwilab/bwi_ros2/src/bwi_ros2_common/bwi_ros2_common/lidar/urg_node2/include/**",
+        "/home/bwilab/bwi_ros2/src/bwi_ros2_common/bwi_ros2_common/lidar/velodyne/velodyne_driver/include/**",
+        "/home/bwilab/bwi_ros2/src/bwi_ros2_common/bwi_ros2_common/lidar/velodyne/velodyne_laserscan/include/**",
+        "/home/bwilab/bwi_ros2/src/bwi_ros2_common/bwi_ros2_common/lidar/velodyne/velodyne_pointcloud/include/**",
+        "/home/bwilab/bwi_ros2/src/convex_decomposition/include/**",
+        "/home/bwilab/bwi_ros2/src/copy_segbot_description/include/**",
+        "/home/bwilab/bwi_ros2/src/fri_autonomous_template/follower_robot/include/**",
+        "/home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_utils/include/**",
+        "/home/bwilab/bwi_ros2/src/ivcon/include/**",
+        "/home/bwilab/bwi_ros2/src/libsegwayrmp/include/**",
+        "/home/bwilab/bwi_ros2/src/lidar/urg_node2/include/**",
+        "/home/bwilab/bwi_ros2/src/lidar/velodyne/velodyne_driver/include/**",
+        "/home/bwilab/bwi_ros2/src/lidar/velodyne/velodyne_laserscan/include/**",
+        "/home/bwilab/bwi_ros2/src/lidar/velodyne/velodyne_pointcloud/include/**",
+        "/home/bwilab/bwi_ros2/src/pr2_description/include/**",
+        "/home/bwilab/bwi_ros2/src/ps_ros2_common/include/**",
+        "/home/bwilab/bwi_ros2/src/segway_rmp_ros2/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

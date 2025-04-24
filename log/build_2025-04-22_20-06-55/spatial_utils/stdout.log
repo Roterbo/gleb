@@ -1,0 +1,27 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/spatial_utils.dir/src/transform_util.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libspatial_utils.a[0m
+[100%] Built target spatial_utils
+-- Install configuration: ""
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib/libspatial_utils.a
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/include
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/include/spatial_utils
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/include/spatial_utils/transform_util.h
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/library_path.sh
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/library_path.dsv
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/ament_index/resource_index/package_run_dependencies/spatial_utils
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/ament_index/resource_index/parent_prefix_path/spatial_utils
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/ament_prefix_path.sh
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/ament_prefix_path.dsv
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/path.sh
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/path.dsv
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/local_setup.bash
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/local_setup.sh
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/local_setup.zsh
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/local_setup.dsv
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.dsv
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/ament_index/resource_index/packages/spatial_utils
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/cmake/spatial_utilsConfig.cmake
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/cmake/spatial_utilsConfig-version.cmake
+-- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.xml

@@ -1,0 +1,16 @@
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/lib/follower_robot/follower_robot
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/ament_index/resource_index/package_run_dependencies/follower_robot
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/ament_index/resource_index/parent_prefix_path/follower_robot
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/environment/ament_prefix_path.sh
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/environment/ament_prefix_path.dsv
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/environment/path.sh
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/environment/path.dsv
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/local_setup.bash
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/local_setup.sh
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/local_setup.zsh
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/local_setup.dsv
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.dsv
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/ament_index/resource_index/packages/follower_robot
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/cmake/follower_robotConfig.cmake
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/cmake/follower_robotConfig-version.cmake
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.xml

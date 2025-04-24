@@ -1,0 +1,16 @@
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/lib/nav_goals/send_goal
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/ament_index/resource_index/package_run_dependencies/nav_goals
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/ament_index/resource_index/parent_prefix_path/nav_goals
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/environment/ament_prefix_path.sh
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/environment/ament_prefix_path.dsv
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/environment/path.sh
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/environment/path.dsv
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/local_setup.bash
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/local_setup.sh
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/local_setup.zsh
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/local_setup.dsv
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.dsv
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/ament_index/resource_index/packages/nav_goals
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/cmake/nav_goalsConfig.cmake
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/cmake/nav_goalsConfig-version.cmake
+/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.xml

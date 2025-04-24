@@ -1,0 +1,323 @@
+[0.130s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/home/bwilab/.local/bin/colcon', 'build'][0m
+[0.130s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79862e72eaa0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79862e72e1a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79862e72e1a0>>, mixin_verb=('build',))[0m
+[0.171s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.171s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.171s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.171s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.171s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.171s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.171s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/bwilab/bwi_ros2/src/fri_autonomous_template'
+[0.171s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.172s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.172s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.172s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.172s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.172s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.172s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.172s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.191s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.191s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.191s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(follower_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(follower_robot) by extension 'ignore'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(follower_robot) by extension 'ignore_ament_install'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(follower_robot) by extensions ['colcon_pkg']
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(follower_robot) by extension 'colcon_pkg'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(follower_robot) by extensions ['colcon_meta']
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(follower_robot) by extension 'colcon_meta'
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(follower_robot) by extensions ['ros']
+[0.192s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(follower_robot) by extension 'ros'
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'follower_robot' with type 'ros.ament_cmake' and name 'follower_robot'[0m
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(nav_goals) by extensions ['ignore', 'ignore_ament_install']
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(nav_goals) by extension 'ignore'
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(nav_goals) by extension 'ignore_ament_install'
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(nav_goals) by extensions ['colcon_pkg']
+[0.195s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(nav_goals) by extension 'colcon_pkg'
+[0.196s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(nav_goals) by extensions ['colcon_meta']
+[0.196s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(nav_goals) by extension 'colcon_meta'
+[0.196s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(nav_goals) by extensions ['ros']
+[0.196s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(nav_goals) by extension 'ros'
+[0.196s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'nav_goals' with type 'ros.ament_cmake' and name 'nav_goals'[0m
+[0.196s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_transforms) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_transforms) by extension 'ignore'
+[0.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_transforms) by extension 'ignore_ament_install'
+[0.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_transforms) by extensions ['colcon_pkg']
+[0.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_transforms) by extension 'colcon_pkg'
+[0.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_transforms) by extensions ['colcon_meta']
+[0.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_transforms) by extension 'colcon_meta'
+[0.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_transforms) by extensions ['ros']
+[0.197s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_transforms) by extension 'ros'
+[0.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'spatial_transforms' with type 'ros.ament_cmake' and name 'spatial_transforms'[0m
+[0.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_utils) by extension 'ignore'
+[0.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_utils) by extension 'ignore_ament_install'
+[0.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_utils) by extensions ['colcon_pkg']
+[0.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_utils) by extension 'colcon_pkg'
+[0.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_utils) by extensions ['colcon_meta']
+[0.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_utils) by extension 'colcon_meta'
+[0.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_utils) by extensions ['ros']
+[0.198s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(spatial_utils) by extension 'ros'
+[0.199s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'spatial_utils' with type 'ros.ament_cmake' and name 'spatial_utils'[0m
+[0.199s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.199s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.199s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.199s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.199s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.214s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.214s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.215s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 2 installed packages in /home/bwilab/bwi_ros2/install[0m
+[0.216s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 370 installed packages in /opt/ros/humble[0m
+[0.217s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.258s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'follower_robot' build argument 'cmake_args' from command line to 'None'
+[0.258s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'follower_robot' build argument 'cmake_target' from command line to 'None'
+[0.258s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'follower_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.258s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'follower_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.258s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'follower_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.258s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'follower_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.258s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'follower_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.258s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'follower_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.258s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'follower_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.258s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'follower_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/follower_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot', 'merge_install': False, 'path': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/follower_robot', 'symlink_install': False, 'test_result_base': None}[0m
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav_goals' build argument 'cmake_args' from command line to 'None'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav_goals' build argument 'cmake_target' from command line to 'None'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav_goals' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav_goals' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav_goals' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav_goals' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav_goals' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav_goals' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'nav_goals' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'nav_goals' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals', 'merge_install': False, 'path': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/nav_goals', 'symlink_install': False, 'test_result_base': None}[0m
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_utils' build argument 'cmake_args' from command line to 'None'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_utils' build argument 'cmake_target' from command line to 'None'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.259s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'spatial_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils', 'merge_install': False, 'path': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_utils', 'symlink_install': False, 'test_result_base': None}[0m
+[0.260s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_transforms' build argument 'cmake_args' from command line to 'None'
+[0.260s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_transforms' build argument 'cmake_target' from command line to 'None'
+[0.260s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_transforms' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_transforms' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_transforms' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_transforms' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_transforms' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_transforms' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'spatial_transforms' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'spatial_transforms' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_transforms', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms', 'merge_install': False, 'path': '/home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_transforms', 'symlink_install': False, 'test_result_base': None}[0m
+[0.260s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.261s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.261s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_utils' with build type 'ament_cmake'
+[0.262s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_utils'
+[0.263s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.263s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.263s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.266s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/follower_robot' with build type 'ament_cmake'
+[0.266s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/follower_robot'
+[0.266s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.269s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/nav_goals' with build type 'ament_cmake'
+[0.269s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/nav_goals'
+[0.269s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.269s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.276s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils -- -j12 -l12[0m
+[0.278s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bwilab/bwi_ros2/src/fri_autonomous_template/follower_robot -DCMAKE_INSTALL_PREFIX=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot[0m
+[0.281s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals -- -j12 -l12[0m
+[0.910s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bwilab/bwi_ros2/src/fri_autonomous_template/follower_robot -DCMAKE_INSTALL_PREFIX=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot[0m
+[0.911s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/follower_robot -- -j12 -l12[0m
+[3.439s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils -- -j12 -l12[0m
+[3.464s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils[0m
+[3.472s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(spatial_utils)
+[3.473s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils[0m
+[3.476s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils' for CMake module files
+[3.477s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils' for CMake config files
+[3.477s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('spatial_utils', 'cmake_prefix_path')
+[3.477s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/hook/cmake_prefix_path.ps1'
+[3.478s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/hook/cmake_prefix_path.dsv'
+[3.479s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/hook/cmake_prefix_path.sh'
+[3.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib'
+[3.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/bin'
+[3.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib/pkgconfig/spatial_utils.pc'
+[3.480s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib/python3.10/site-packages'
+[3.481s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/bin'
+[3.481s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.ps1'
+[3.482s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.dsv'
+[3.483s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.sh'
+[3.484s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.bash'
+[3.485s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.zsh'
+[3.486s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/colcon-core/packages/spatial_utils)
+[3.505s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(spatial_utils)
+[3.505s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils' for CMake module files
+[3.506s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils' for CMake config files
+[3.507s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('spatial_utils', 'cmake_prefix_path')
+[3.507s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/hook/cmake_prefix_path.ps1'
+[3.507s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/hook/cmake_prefix_path.dsv'
+[3.508s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/hook/cmake_prefix_path.sh'
+[3.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib'
+[3.508s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/bin'
+[3.509s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib/pkgconfig/spatial_utils.pc'
+[3.509s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib/python3.10/site-packages'
+[3.509s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/bin'
+[3.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.ps1'
+[3.510s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.dsv'
+[3.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.sh'
+[3.511s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.bash'
+[3.512s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.zsh'
+[3.512s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/colcon-core/packages/spatial_utils)
+[3.513s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_transforms' with build type 'ament_cmake'
+[3.513s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_transforms'
+[3.513s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.513s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.523s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_transforms': AMENT_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:/home/bwilab/bwi_ros2/install/spatial_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_transforms -DCMAKE_INSTALL_PREFIX=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms[0m
+[4.208s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals -- -j12 -l12[0m
+[4.225s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals[0m
+[4.233s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(nav_goals)
+[4.233s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals' for CMake module files
+[4.233s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/nav_goals[0m
+[4.234s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals' for CMake config files
+[4.234s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('nav_goals', 'cmake_prefix_path')
+[4.234s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/hook/cmake_prefix_path.ps1'
+[4.234s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/hook/cmake_prefix_path.dsv'
+[4.235s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/hook/cmake_prefix_path.sh'
+[4.235s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/lib'
+[4.235s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/bin'
+[4.235s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/lib/pkgconfig/nav_goals.pc'
+[4.235s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/lib/python3.10/site-packages'
+[4.235s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/bin'
+[4.236s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.ps1'
+[4.236s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.dsv'
+[4.236s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.sh'
+[4.237s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.bash'
+[4.237s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.zsh'
+[4.237s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/colcon-core/packages/nav_goals)
+[4.253s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(nav_goals)
+[4.253s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals' for CMake module files
+[4.254s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals' for CMake config files
+[4.254s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('nav_goals', 'cmake_prefix_path')
+[4.254s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/hook/cmake_prefix_path.ps1'
+[4.254s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/hook/cmake_prefix_path.dsv'
+[4.255s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/hook/cmake_prefix_path.sh'
+[4.255s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/lib'
+[4.255s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/bin'
+[4.255s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/lib/pkgconfig/nav_goals.pc'
+[4.255s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/lib/python3.10/site-packages'
+[4.256s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/bin'
+[4.256s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.ps1'
+[4.256s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.dsv'
+[4.256s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.sh'
+[4.257s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.bash'
+[4.257s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/nav_goals/package.zsh'
+[4.257s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/nav_goals/share/colcon-core/packages/nav_goals)
+[4.867s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_transforms' returned '0': AMENT_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:/home/bwilab/bwi_ros2/install/spatial_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_transforms -DCMAKE_INSTALL_PREFIX=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms[0m
+[4.868s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_transforms': AMENT_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:/home/bwilab/bwi_ros2/install/spatial_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_transforms -- -j12 -l12[0m
+[10.530s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_transforms' returned '0': AMENT_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:/home/bwilab/bwi_ros2/install/spatial_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_transforms -- -j12 -l12[0m
+[10.551s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_transforms': AMENT_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:/home/bwilab/bwi_ros2/install/spatial_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_transforms[0m
+[10.560s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(spatial_transforms)
+[10.561s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms' for CMake module files
+[10.561s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_transforms' returned '0': AMENT_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils:/home/bwilab/bwi_ros2/install/spatial_utils:/opt/ros/humble LD_LIBRARY_PATH=/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_transforms[0m
+[10.561s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms' for CMake config files
+[10.561s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('spatial_transforms', 'cmake_prefix_path')
+[10.562s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/hook/cmake_prefix_path.ps1'
+[10.562s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/hook/cmake_prefix_path.dsv'
+[10.562s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/hook/cmake_prefix_path.sh'
+[10.562s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/lib'
+[10.563s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/bin'
+[10.563s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/lib/pkgconfig/spatial_transforms.pc'
+[10.563s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/lib/python3.10/site-packages'
+[10.563s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/bin'
+[10.563s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/package.ps1'
+[10.563s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/package.dsv'
+[10.564s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/package.sh'
+[10.564s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/package.bash'
+[10.564s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/package.zsh'
+[10.564s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/colcon-core/packages/spatial_transforms)
+[10.582s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(spatial_transforms)
+[10.582s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms' for CMake module files
+[10.583s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms' for CMake config files
+[10.583s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('spatial_transforms', 'cmake_prefix_path')
+[10.583s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/hook/cmake_prefix_path.ps1'
+[10.583s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/hook/cmake_prefix_path.dsv'
+[10.583s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/hook/cmake_prefix_path.sh'
+[10.584s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/lib'
+[10.584s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/bin'
+[10.584s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/lib/pkgconfig/spatial_transforms.pc'
+[10.584s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/lib/python3.10/site-packages'
+[10.585s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/bin'
+[10.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/package.ps1'
+[10.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/package.dsv'
+[10.585s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/package.sh'
+[10.586s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/package.bash'
+[10.586s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/spatial_transforms/package.zsh'
+[10.586s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_transforms/share/colcon-core/packages/spatial_transforms)
+[10.776s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/follower_robot -- -j12 -l12[0m
+[10.795s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/follower_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/follower_robot[0m
+[10.805s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(follower_robot)
+[10.805s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot' for CMake module files
+[10.805s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/follower_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/follower_robot[0m
+[10.806s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot' for CMake config files
+[10.806s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('follower_robot', 'cmake_prefix_path')
+[10.806s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/hook/cmake_prefix_path.ps1'
+[10.806s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/hook/cmake_prefix_path.dsv'
+[10.807s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/hook/cmake_prefix_path.sh'
+[10.807s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/lib'
+[10.807s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/bin'
+[10.807s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/lib/pkgconfig/follower_robot.pc'
+[10.807s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/lib/python3.10/site-packages'
+[10.808s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/bin'
+[10.808s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.ps1'
+[10.808s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.dsv'
+[10.809s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.sh'
+[10.809s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.bash'
+[10.809s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.zsh'
+[10.810s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/colcon-core/packages/follower_robot)
+[10.830s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(follower_robot)
+[10.830s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot' for CMake module files
+[10.830s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot' for CMake config files
+[10.830s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('follower_robot', 'cmake_prefix_path')
+[10.831s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/hook/cmake_prefix_path.ps1'
+[10.831s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/hook/cmake_prefix_path.dsv'
+[10.831s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/hook/cmake_prefix_path.sh'
+[10.832s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/lib'
+[10.832s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/bin'
+[10.832s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/lib/pkgconfig/follower_robot.pc'
+[10.832s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/lib/python3.10/site-packages'
+[10.832s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/bin'
+[10.832s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.ps1'
+[10.833s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.dsv'
+[10.833s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.sh'
+[10.833s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.bash'
+[10.834s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/follower_robot/package.zsh'
+[10.834s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/follower_robot/share/colcon-core/packages/follower_robot)
+[10.834s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[10.834s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[10.835s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[10.835s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[10.839s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.839s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.839s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[10.847s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[10.847s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/local_setup.ps1'
+[10.848s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/_local_setup_util_ps1.py'
+[10.849s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/setup.ps1'
+[10.850s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/local_setup.sh'
+[10.850s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/_local_setup_util_sh.py'
+[10.850s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/setup.sh'
+[10.851s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/local_setup.bash'
+[10.852s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/setup.bash'
+[10.852s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/local_setup.zsh'
+[10.853s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/bwilab/bwi_ros2/src/fri_autonomous_template/install/setup.zsh'

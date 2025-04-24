@@ -13,6 +13,19 @@
 */
 Eigen::MatrixXd transformToMatrix(const geometry_msgs::msg::TransformStamped &transform) {
     Eigen::MatrixXd matrix = Eigen::MatrixXd::Identity(4,4);
+
+    matrix(0, 3) = transform.transform.translation.x;
+    matrix(1, 3) = transform.transform.translation.y;
+    matrix(2, 3) = transform.transform.translation.z;
+
+    Eigen::Quaterniond q(
+        transform.transform.rotation.w,
+        transform.transform.rotation.x,
+        transform.transform.rotation.y,
+        transform.transform.rotation.z
+    );
+
+    matrix.block<3, 3>(0, 0) = q.toRotationMatrix();
     return matrix;
 }
 
@@ -31,6 +44,19 @@ Eigen::MatrixXd transformToMatrix(const geometry_msgs::msg::TransformStamped &tr
 geometry_msgs::msg::TransformStamped matrixToTransform(
     const Eigen::MatrixXd &matrix, const std::string &parent_frame, const std::string &child_frame) {
     geometry_msgs::msg::TransformStamped transform_msg;
+
+    transform_msg.transform.translation.x = matrix(0, 3);
+    transform_msg.transform.translation.x = matrix(1, 3);
+    transform_msg.transform.translation.x = matrix(2, 3);
+
+    Eigen::Matrix3d rot_matrix = matrix.block<3, 3>(0, 0);
+    Eigen::Quaterniond q(rot_matrix);
+
+    transform_msg.transform.rotation.w = q.x();
+    transform_msg.transform.rotation.x = q.y();
+    transform_msg.transform.rotation.y = q.z();;
+    transform_msg.transform.rotation.z = q.w();;
+
     return transform_msg;
 }
 

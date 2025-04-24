@@ -1,0 +1,39 @@
+[0.015s] Invoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils -- -j12 -l12
+[0.053s] [ 50%] [32mBuilding CXX object CMakeFiles/spatial_utils.dir/src/transform_util.cpp.o[0m
+[2.519s] [01m[K/home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_utils/src/transform_util.cpp:[m[K In function ‘[01m[Kgeometry_msgs::msg::TransformStamped matrixToTransform(const MatrixXd&, const string&, const string&)[m[K’:
+[2.519s] [01m[K/home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_utils/src/transform_util.cpp:45:55:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kparent_frame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.519s]    45 |     const Eigen::MatrixXd &matrix, [01;35m[Kconst std::string &parent_frame[m[K, const std::string &child_frame) {
+[2.519s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[2.519s] [01m[K/home/bwilab/bwi_ros2/src/fri_autonomous_template/spatial_utils/src/transform_util.cpp:45:88:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kchild_frame[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[2.519s]    45 | matrix, const std::string &parent_frame, [01;35m[Kconst std::string &child_frame[m[K) {
+[2.519s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[2.519s] 
+[3.109s] [100%] [32m[1mLinking CXX static library libspatial_utils.a[0m
+[3.169s] [100%] Built target spatial_utils
+[3.177s] Invoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils -- -j12 -l12
+[3.202s] Invoking command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils
+[3.207s] -- Install configuration: ""
+[3.207s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/lib/libspatial_utils.a
+[3.207s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/include
+[3.208s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/include/spatial_utils
+[3.208s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/include/spatial_utils/transform_util.h
+[3.208s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/library_path.sh
+[3.208s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/library_path.dsv
+[3.208s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/ament_index/resource_index/package_run_dependencies/spatial_utils
+[3.208s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/ament_index/resource_index/parent_prefix_path/spatial_utils
+[3.208s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/ament_prefix_path.sh
+[3.208s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/ament_prefix_path.dsv
+[3.208s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/path.sh
+[3.209s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/environment/path.dsv
+[3.209s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/local_setup.bash
+[3.209s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/local_setup.sh
+[3.209s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/local_setup.zsh
+[3.209s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/local_setup.dsv
+[3.209s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.dsv
+[3.209s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/ament_index/resource_index/packages/spatial_utils
+[3.209s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.210s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/cmake/ament_cmake_export_libraries-extras.cmake
+[3.210s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/cmake/spatial_utilsConfig.cmake
+[3.210s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/cmake/spatial_utilsConfig-version.cmake
+[3.210s] -- Installing: /home/bwilab/bwi_ros2/src/fri_autonomous_template/install/spatial_utils/share/spatial_utils/package.xml
+[3.211s] Invoked command in '/home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bwilab/bwi_ros2/src/fri_autonomous_template/build/spatial_utils
